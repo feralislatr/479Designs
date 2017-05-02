@@ -1,0 +1,142 @@
+@import url(base.css);
+
+body{
+
+	background-color: white;
+
+}
+
+.page-wrapper{
+	margin-top: 200px;
+	width: 70%;
+}
+
+footer{
+	position: absolute;
+	top:-170px;
+	left:-100px;
+	float:left;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all ease .5s;
+}
+
+a:hover {
+  color:black;
+  border-color:teal;
+}
+
+.resources{
+	color:transparent;
+}
+.zen-resources ul{
+	position: absolute;
+	top:-189px;
+	right:  -200px;
+	float:right;
+	min-width: 650px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: .9em;
+
+	
+}
+
+.zen-resources ul li{
+	display: inline-block;
+	padding-right: 2px;
+}
+
+.zen-resources ul li a,
+.zen-resources ul li a:visited{
+	
+}
+
+.zen-resources ul li a:{
+	text-decoration: underline;
+}
+
+h1,
+h2,
+h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	color:#666;
+	position: absolute;
+	top:202px;
+	left:-340px;
+	font-size: 3.25em;
+	transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+}
+
+h2{
+	font-size: 3.5em;
+	min-width: 80%;
+	margin: 0.5em 0 0.5em 0;
+
+}
+
+h3{
+	font-size: 2em;
+	margin: 0.5em 0 0.5em 0;
+}
+
+.select,
+.archives{
+	border-bottom: 3px solid #333;
+}
+
+.design-selection ul li,
+.design-archives ul li{
+	padding-bottom: 20px;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+	.zen-resources ul{
+		top:-131px;
+		left:-140px;
+		float:left;
+		min-width: 0;
+	}
+
+	.zen-resources ul li{
+	display: block
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	.page-wrapper{
+		width:95%;
+	}
+
+	h1{
+		display: none;
+	}
+
+	h2{
+		min-width: 90%;
+	}
+
+	footer{
+		top:-170px;
+		left:-10px;
+	}
+
+	.zen-resources ul{
+		left:-50px;
+
+	}	
+}

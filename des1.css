@@ -1,0 +1,270 @@
+@import url(base.css);
+
+/*
+Based on Trent Walton's design
+*{
+	border: dotted 1px #000;
+}
+*/
+
+body{
+	background-color: linen;
+	font-family: 'Slabo 27px', serif;
+	color: #333;
+}
+
+.page-wrapper{
+	margin: 0 auto;
+	position: relative;
+	width: 95%;
+	padding: 0;
+	border: solid 10px #333;
+}
+
+h1{
+	font-family: 'Dynalight', cursive;
+	margin: 0 auto;
+	margin-top: 10vw;
+	font-size: 9.5em;
+	text-align: center;
+	max-width: 50vw;
+	
+
+}
+
+h2{
+	margin-top: 10vw;
+	font-size: 3em;
+	font-family: 'Codystar', cursive;
+	font-weight: 700;
+	text-align: center;
+
+}
+
+
+
+h3{
+	font-size: 2.9em;
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 1.15em;
+	margin-top: 1em;
+	max-width: 10em;
+
+	border-bottom: solid 10px #333;
+}
+
+
+
+p{
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height: 36px;
+	width:80%;
+}
+
+
+.summary{
+	width: 50%;
+	margin: 0 auto;
+	
+}
+
+.preamble h3{
+	max-width: 12em;
+	border-top:solid 10px #333; 
+
+	
+}
+
+.preamble p{
+	margin: 0 auto;
+	width:50vw;
+	text-indent: 30px;
+}
+
+.preamble{
+	border-bottom:solid 10px #333; 
+	padding-bottom: 30px;
+}
+
+.main p{
+	text-indent: 30px;
+	
+}
+
+.main{
+	width:100%;
+	border-bottom:solid 10px #333;
+}
+
+.explanation h3{
+	width:100vw;
+
+}
+
+.explanation{
+	border-bottom:solid 10px #333;
+}
+
+.benefits{
+	border-bottom: solid 10px #333;
+}
+
+
+.requirements{
+	columns: 3;
+	-moz-columns: 3;
+	-moz-column-gap:0px;
+	-webkit-column-count: 3;
+	-webkit-column-gap:0px;
+	width:90%;
+	margin: 0 auto;
+}
+.requirements h3{
+	max-width: 100%;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.requirements p{
+	margin: 0;
+}
+
+
+footer a{
+	color: transparent;
+	
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.sidebar{
+	bottom:10px;
+	width:90%;
+	text-align: left;
+	margin: 0 auto;
+
+
+}
+
+
+
+.design-selection{
+	margin: 0 auto;
+	width:50%;
+}
+
+.design-selection ul{
+	margin: 0 auto;
+	list-style-type: none;
+	overflow-x: hidden;
+	padding-left: 0;
+
+
+	
+}
+
+.design-selection li{
+	 overflow-x: hidden;
+	 color:transparent;
+	 clear:both;
+	 padding-bottom: .1em;
+	 padding-left: .2em;
+}
+
+
+.design-name{
+	float:left;
+	font-family: 'Dynalight', cursive;
+	font-size: 1.7em;
+
+}
+
+.design-name:after{
+	float: left;
+	width:0;
+	white-space: nowrap;
+	content: "............................................................................................................................................................";
+}
+
+
+.designer-name{
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+	float:right;
+
+}
+a{
+	color:#c71f1f;
+	text-decoration: none;
+
+}
+a:hover{
+	color:#841515;
+	text-decoration: none;
+	  border-color: transparent;
+}
+
+design-archives ul{
+	padding-left: 0 !important;
+}
+
+.archives {
+	color:transparent;
+	border: none;
+	position: absolute;
+}
+
+.archives ul{
+	padding-left: 0;
+}
+
+.next {
+	list-style-type: none;
+}
+.next a{
+	color:transparent;
+
+}
+
+.viewall{
+	font-size: 2.9em;
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 1.15em;
+	max-width: 10em;
+	list-style-type: none;
+
+}
+
+
+.resources{
+	color:transparent;
+	border: none;
+	position: absolute;
+}
+
+#zen-resources ul {
+  list-style-type: none;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-left: 0;
+}
+
+#zen-resources li{
+	display: block;
+	text-align: center;
+
+}
